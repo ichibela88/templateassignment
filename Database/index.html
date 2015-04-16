@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width">
+	<title>Loading data </title>
+
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+</head>
+<h1> Fashion Trends for Summer 2015</h1>
+<body>
+   
+	<div id="lines">
+	</div>
+
+
+   <script  id="template" type="text/jst">
+    <div class= "fashion-container">
+             <div class = 'name'><%=name%> </div>
+             <div class = 'type'><%=type%></div>
+             <div class = 'path'><img src='<%=path%>'</div>
+    </div>
+    </script>
+   <script type="text/javascript" src='js/d3.v3.min.js'></script>
+   <script type="text/javascript" src='js/jquery-1.11.1.min.js'></script>
+   <script type="text/javascript" src='js/underscore-min.js'></script>
+   <script type="text/javascript" src='js/main.js'></script>
+
+  
+
+   </body>
+   </html>
